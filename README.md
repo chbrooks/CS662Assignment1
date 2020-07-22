@@ -1,9 +1,7 @@
 # CS662Assignment1
 
-<h1>CS662 Assignment 1: Python Warmup </h1>
+ Due Date: Aug 31.
 
-<h3> Due Date: ??  </h3>
-</center>
 This assignment is meant to get you up to speed with Python, build a
 couple of tools that we'll use later in the semester, and also give
 you an early taste of machine learning using scikit-learn. For all
