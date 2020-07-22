@@ -1,13 +1,30 @@
-# CS662Assignment1
+# CS662 Assignment 1
 
- Due Date: Aug 31.
+ ###Due Date: Aug 31.
 
-This assignment is meant to get you up to speed with Python, build a
+In this assignment, you'll characterize some AI problems according to the different parameters presented in lecture and in the text. 
+This assignment is also meant to get you up to speed with Python, build a
 couple of tools that we'll use later in the semester, and also give
 you an early taste of machine learning using scikit-learn. For all
 assignments, you must use the provided template code as a starting point.
 
-(25%) Word frequencies. One of the primary domains we'll  work
+* 1. (25%) Problem characterization. For each of the following AI problems, describe the modeling choices you. would make, including:
+** Environment - is it best modeled as discrete or continuous, static or dynamic, deterministic or non-deterministic, and episodic or sequential.
+** Online or offline? 
+** How important is it that our agent's actions be explainable?
+** Will our agent need to reason about other agents?
+** How will we describe and measure success?
+** Will our agent need to learn? If so, what data and feedback will be available to it?
+
+Please place your answers in a Word or PDF document added to your repository for this assignment.
+
+* An intelligent chatbot. We would like to build an agent that can intelligently communicate with users in a text-based chat setting. It should be able to talk about a variety of subjects and carry on a dialogue.
+* An autonomous Uber/Lyft. We would like to build a self-driving car that can safely navigate the streets of San Francisco and pick up and drop off passengers.
+* A trash-sorting agent. We would like to build an agent that can observe pieces of trash as they pass by on a conveyor belt and identify them as recyclable or not. 
+* A class-scheduling agent. We would like to build an agent that can take each student's preferred courses and find the optimal schedule for all students.
+
+
+* (25%) Word frequencies. One of the primary domains we'll  work
   with this semester is text. The most common approach to dealing with
   large bodies of text is statistical, which requires counting the
   number of words in a document.
