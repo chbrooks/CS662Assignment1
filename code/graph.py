@@ -1,4 +1,4 @@
-import cPickle as pickle
+import pickle
 
 ### build graph: 
 ### takes as input a file in the form:
@@ -13,7 +13,7 @@ import cPickle as pickle
 ### g[a] = (b,dist,time)
 
 class graph() :
-    def __init_(self, infile=None) :
+    def __init__(self, infile=None) :
         self.adjlist = {}
         if infile :
             self.buildGraph(infile)
@@ -24,16 +24,17 @@ class graph() :
 
 
 ### method that takes as input a file name and constructs the graph described 
-### above. Assume that the file has the format used in TSPLIB
+### above. Assume that the file has the format used in the 'sfdata' file.
 
     def buildGraph(self, infile) :
 
     
 
-### this method should take as input the labels of a source and destination vertex, compute Djikstra's algorithm and
-### return a list of edges representing the shortest path between the source and destination.
+### this method should use the Floyd-Warshall algorithm to compute all-pairs shortest path on the graph, and return a matrix of distances, 
+### stored as a list of lists.
 
-    def djikstra(self, source, destination) :
+
+    def floydWarshall(self) :
 
 
 class edge() :
